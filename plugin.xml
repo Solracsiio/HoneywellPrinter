@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="HoneyWellPrinter" version="0.1.0">
+    <name>HoneyWellPrinter</name>
+    <description>Honeywell Bluetooth Printer Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,device,printer,bluetooth</keywords>
+    <js-module src="www/HoneywellPrinter.js" name="HoneywellPrinter">
+        <clobbers target="HoneywellPrinter" />
+    </js-module>
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="HoneywellPrinter">
+                <param name="android-package" value="com.Cordova.Solracsiio.HoneywellPrinter"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/HoneywellPrinter.java" target-dir="src/com/Cordova/HoneywellPrinter" />
+        <source-file src="src/android/lib/DO_AndroidSDK_v2.5.0.aar" target-dir="libs"/>
+        <framework src="HoneywellSDK.gradle" custom="true" type="gradleReference" />
+
+    </platform>
+</plugin>
