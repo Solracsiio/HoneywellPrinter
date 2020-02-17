@@ -1,6 +1,7 @@
 {
+  
   "name": "honeywellprinter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Honeywell Bluetooth Printer Plugin",
   "cordova": {
     "id": "HoneyWellPrinter.Plugin.Cordova",
@@ -8,14 +9,29 @@
       "android"
     ]
   },
+  "homepage": "https://github.com/Solracsiio/HoneywellPrinter",
   "keywords": [
     "cordova",
     "device",
     "printer",
     "bluetooth",
+    "honeywell",
     "ecosystem:cordova",
-    "cordova-android"
+    "cordova-android",
+    "honeywell printer",
+    "honeywell plugin"
   ],
   "author": "Carlos Figueroa",
-  "license": "Apache 2.0"
+  "license": "Apache 2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://https://github.com/Solracsiio/HoneywellPrinter"
+  },
+  "deprecated": false,
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ]
 }

@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="HoneyWellPrinter" version="0.1.0">
+        id="cordova-plugin-HoneyWellPrinter" version="0.1.0">
     <name>HoneyWellPrinter</name>
     <description>Honeywell Bluetooth Printer Plugin</description>
+
+    <repo>https://https://github.com/Solracsiio/HoneywellPrinter</repo>
     <license>Apache 2.0</license>
     <keywords>cordova,device,printer,bluetooth</keywords>
+
+    <author>Carlos Figueroa</author>
+
+    <engines>
+      <engine name="cordova" version=">=3.0.0" />
+   </engines>
+
     <js-module src="www/HoneywellPrinter.js" name="HoneywellPrinter">
         <clobbers target="HoneywellPrinter" />
     </js-module>
+
     <platform name="android">
-        <config-file target="config.xml" parent="/*">
+        <config-file target="res/xml/config.xml" parent="/*">
             <feature name="HoneywellPrinter">
-                <param name="android-package" value="com.Cordova.Solracsiio.HoneywellPrinter"/>
+                <param name="android-package" value="org.apache.cordova.HoneywellPrinter"/>
             </feature>
+            <uses-permission android:name="android.permission.BLUETOOTH" />
         </config-file>
 
         <source-file src="src/android/HoneywellPrinter.java" target-dir="src/com/Cordova/HoneywellPrinter" />
