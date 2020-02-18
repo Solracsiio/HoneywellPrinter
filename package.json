@@ -1,5 +1,4 @@
 {
-  
   "name": "honeywellprinter",
   "version": "0.1.1",
   "description": "Honeywell Bluetooth Printer Plugin",
@@ -22,7 +21,7 @@
     "honeywell plugin"
   ],
   "author": "Carlos Figueroa",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://https://github.com/Solracsiio/HoneywellPrinter"
@@ -33,5 +32,9 @@
       "name": "cordova",
       "version": ">=3.0.0"
     }
-  ]
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "HoneywellPrinter.Imprimir()"
+  }
 }
