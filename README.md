@@ -13,29 +13,48 @@ For print text
 
 <code>
 HoneywellPrinter.Imprimir(texto, mac,
+        
         function (success) {
+        
             //alert("Print ok"); 
+            
             console.log(texto)
+            
         }, function (error) {
+        
             alert(error);
+            
             console.log("Error " + error)
+            
         }
+        
     );
+    
   </code>
   
   For printing an image
   
   <code>
 HoneywellPrinter.ImprimirImagen(base64, mac,
+        
         function (success) {
+        
             //alert("Print ok");
+            
             alert(success);
+            
             console.log(texto)
+            
         }, function (error) {
+        
             alert(error);
+            
             console.log("Error " + error)
+            
         }
+        
     );
+    
   </code>
   
   base 64 var value must be like this example 
