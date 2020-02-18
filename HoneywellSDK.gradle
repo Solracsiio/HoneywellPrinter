@@ -8,7 +8,7 @@ repositories{
 }
 
 dependencies {
-  implementation (name:'HoneywellSDK.5.0', ext:'aar')
+  implementation (name:'DO_AndroidSDK_v2.5.0', ext:'aar')
 }
 
 android {

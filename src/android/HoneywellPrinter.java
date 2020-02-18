@@ -48,7 +48,7 @@ import honeywell.printer.configuration.dpl.*;
 import honeywell.printer.configuration.ez.*;
 import honeywell.printer.configuration.expcl.*;
 
-public class AndroidToast extends CordovaPlugin {
+public class HoneywellPrinter extends CordovaPlugin {
     private CallbackContext callbackContext;
 
     ConnectionBase conn;
