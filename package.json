@@ -36,5 +36,8 @@
   "main": "index.js",
   "scripts": {
     "test": "HoneywellPrinter.Imprimir()"
+  },
+  "dependencies": {
+    "@ionic-native/core": "^5.21.5"
   }
 }
