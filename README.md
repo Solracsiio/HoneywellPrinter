@@ -5,6 +5,8 @@ Add to your project with this command:
 
 <code> cordova plugin add honeywellprinter </code>
 
+Or if you Clone/Download the project, is by this way:
+
 <code>cordova plugin add _Unziped Directory_ </code>
 
 You can call the methods using the methods belows
