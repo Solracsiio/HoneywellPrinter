@@ -23,7 +23,7 @@
             <feature name="HoneywellPrinter">
                 <param name="android-package" value="org.apache.cordova.HoneywellPrinter"/>
             </feature>
-            <uses-permission android:name="android.permission.BLUETOOTH" />
+         
         </config-file>
 
         <source-file src="src/android/HoneywellPrinter.java" target-dir="src/com/Cordova/HoneywellPrinter" />
