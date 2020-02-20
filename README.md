@@ -9,6 +9,10 @@ Or if you clone/download zip file and extract, use this command:
 
 <code>cordova plugin add _Unziped Directory_ </code>
 
+for Uninstall is the next command:
+
+<code> cordova plugin rm HoneywellPrinter </code>
+
 You can call the methods using the methods belows
 
 For print text
