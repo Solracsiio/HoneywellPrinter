@@ -17,7 +17,10 @@ You can call the methods using the methods belows
 
 For print text
 
+
 <code>
+        
+       
 HoneywellPrinter.Imprimir(texto, mac,
         
         function (success) {
@@ -41,6 +44,8 @@ HoneywellPrinter.Imprimir(texto, mac,
   For printing an image
   
   <code>
+        
+        
 HoneywellPrinter.ImprimirImagen(base64, mac,
         
         function (success) {
